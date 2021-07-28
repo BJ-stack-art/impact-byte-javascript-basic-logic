@@ -241,3 +241,38 @@ console.log(exchangeCoin(1752)); */
 }
 
 asteriksLoop(4); */
+
+
+
+
+
+
+
+
+
+
+
+
+// 8. Pyramid loop
+/* 
+    input 3
+                    
+  *     | tinggi 3 
+ ***    |           
+*****   |           
+
+*/
+
+/* const pyramidLoop = (number) => {
+    for(let i = 0; i<= number; i++)  {
+        let char = '';
+
+        for(let j = number - i; j > 0; j--) char += ' ';
+        for(let k = 0; k < i; k++) char+= '*';
+        for(let  l = 1; l < i; l++) char+= '*';
+
+        console.log(char);
+    }
+}
+
+pyramidLoop(5); */
