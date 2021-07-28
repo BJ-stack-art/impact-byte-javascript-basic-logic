@@ -208,3 +208,36 @@ console.log(palindrome("kasur rusak")); */
 }
 
 console.log(exchangeCoin(1752)); */
+
+
+
+
+
+
+
+
+
+
+
+
+// 7. Asteriks loop
+/* 
+    buatlah sebuah fungsi yang dapat menampilkan jumlah asterik sesuai perulangan yang dimasukkan, seperti ilustrasi berikut :
+
+    input 4
+
+    *
+    **
+    ***
+    ****
+*/
+
+/* const asteriksLoop = (number) => {
+    for(let i = 0; i <= number; i++) {
+        let simbol = '';
+        for(let j = 0; j < i; j++)  simbol += '*';
+        console.log(simbol);
+    }
+}
+
+asteriksLoop(4); */
