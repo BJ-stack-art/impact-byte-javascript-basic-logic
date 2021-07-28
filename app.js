@@ -106,3 +106,36 @@ console.log(countWord("hello hello hello")) */
 }
 
 console.log(countVowelConsonant("")); */
+
+
+
+
+
+
+
+
+
+
+
+// 4. reverse word
+/* 
+    buatlah sebuah fungsi yang dapat membalikkan tipe data string.
+    fungsi ini hanya dapat menerima tipe data string, dan mengembalikan hasil dengan tipe data string juga
+
+    "hello" -> return "olleh"
+    "world!" -> return "!dlrow"
+    "asikasikasik" -> return "kisakisakisa"
+    "" -> return ""
+*/
+
+/* const reverseWord = (string) => {
+    if( typeof string !== 'string' ) return 'error input bukan string';
+    
+    let result = '';
+    for(let i = string.length -1; i >= 0; i--) {
+        result += string[i];
+    }
+    return result;
+}
+
+console.log(reverseWord("asikasikasik")); */
