@@ -168,3 +168,43 @@ console.log(reverseWord("asikasikasik")); */
 }
 
 console.log(palindrome("kasur rusak")); */
+
+
+
+
+
+
+
+
+
+
+// 6. Exchange coin
+/* 
+    buatlah sebuah fungsi yang dapat mengecek pecahan dari input kumpulan coin, pecahan yang tersedia adalah 1000, 500, 200, 100, 50, 20, 10, 5, dan 1.
+    fungsi ini hanya menerima argumen berupa tipe data number dan mengembalikan tipe data string
+
+    1752 -> return "1000, 500, 200, 50, 1, 1"
+    879 -> return "500, 200, 100, 50, 20, 5, 1, 1, 1, 1"
+    50 -> return "50"
+    0 -> return ""
+    5000 -> return "1000, 1000, 1000, 1000, 1000"
+*/
+
+/* const exchangeCoin = (number) => {
+    let resultCoins = "";
+    const coins = [1000,500,200,100,50,20,10,5,1];
+
+    const pecah = (unit) => {
+        while(number >= unit) {
+            resultCoins += `${unit}, `;
+            number -= unit;
+        }
+    }
+    
+    for(let i = 0; i <= coins.length ; i++)
+        pecah(coins[i]);
+    
+    return resultCoins;
+}
+
+console.log(exchangeCoin(1752)); */
