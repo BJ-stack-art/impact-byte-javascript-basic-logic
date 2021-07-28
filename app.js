@@ -139,3 +139,32 @@ console.log(countVowelConsonant("")); */
 }
 
 console.log(reverseWord("asikasikasik")); */
+
+
+
+
+
+
+
+
+// 5. palindrome
+/* 
+    Buatlah sebuah fungsi yang dapat mengecek apakah kata yang dimasukkan adalah palindrome atau tidak
+    fungsi ini hanya dapat menerima argument tipe data string dengan minimal 2 karakter, dan mengembalikan tipe data bool ( kembalikan true jika kata tersebut palindrome, kembalikan false jika kata tersebut tidak palindrome atau karakter yang dimasukkan kurang dari 2 karakter )
+
+    "katak" -> return true
+    "kasur" -> return false
+    "h" -> return false
+    "kasur rusak" -> return true
+    "erererrerere" -> return true
+*/
+/* const palindrome = (string) => {
+    if( typeof string !== 'string' ) return 'error input bukan string';
+
+    let strReverse = '';
+    for(let i = string.length - 1; i >= 0; i--) strReverse += string[i];
+
+    return string.length > 1 && strReverse === string
+}
+
+console.log(palindrome("kasur rusak")); */
