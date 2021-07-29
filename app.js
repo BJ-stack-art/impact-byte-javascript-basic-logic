@@ -12,19 +12,18 @@
 
    
     
-/* const evenCharacter = (string) => {
+const evenCharacter = (string) => {
     // check tipe data
     if(typeof string !== 'string') return 'error input bukan string';
 
     let result = "";
-    for(let i = 0; i < string.length; i++) {
+    for(let i = 0; i < string.length; i++) 
         i % 2 === 1 ? result += string[i] : "";
-    }
 
     return result;
 }
 
-console.log(evenCharacter("pratama")); */
+console.log(evenCharacter("pratama"));
 
 
 
@@ -50,18 +49,17 @@ console.log(evenCharacter("pratama")); */
  */
 
 
-/* const countWord = (string) => {
+const countWord = (string) => {
     if( typeof string !== 'string' ) return 'error input bukan string';
     
     let space = 0;
-    for(let i = 0; i < string.length; i++) {
+    for(let i = 0; i < string.length; i++)
         string[i] === " " ? space += 1 : "";
-    }
     
     return string.length ? space + 1 : 0;
 } 
 
-console.log(countWord("hello hello hello")) */
+console.log(countWord("hello hello hello"))
 
 
 
@@ -83,7 +81,7 @@ console.log(countWord("hello hello hello")) */
     123434 -> return "error input bukan string"
 */
 
-/* const countVowelConsonant = (string) => {
+const countVowelConsonant = (string) => {
     if( typeof string !== 'string' ) return 'error input bukan string';
     
     let vowel = 0;
@@ -91,21 +89,18 @@ console.log(countWord("hello hello hello")) */
 
     const listVowel = ['a','i','u','e','o'];
     const checkVowel = (character) => {
-        for(let i = 0; i < listVowel.length; i++) {
+        for(let i = 0; i < listVowel.length; i++) 
             if(listVowel[i] === character) return true;
-        }
         return false;
     }
 
-    for(let i = 0; i < string.length; i++) {
-        console.log(string[i] , checkVowel(string[i]));
+    for(let i = 0; i < string.length; i++) 
         checkVowel(string[i]) ? vowel++ : consonant++;
-    }
 
     return `jumlah vokal : ${vowel} , jumlah konsonan : ${consonant}`; 
 }
 
-console.log(countVowelConsonant("")); */
+console.log(countVowelConsonant("hellohello"));
 
 
 
@@ -128,17 +123,17 @@ console.log(countVowelConsonant("")); */
     "" -> return ""
 */
 
-/* const reverseWord = (string) => {
+const reverseWord = (string) => {
     if( typeof string !== 'string' ) return 'error input bukan string';
     
     let result = '';
-    for(let i = string.length -1; i >= 0; i--) {
+    for(let i = string.length -1; i >= 0; i--)
         result += string[i];
-    }
+
     return result;
 }
 
-console.log(reverseWord("asikasikasik")); */
+console.log(reverseWord("asikasikasik"));
 
 
 
@@ -158,7 +153,7 @@ console.log(reverseWord("asikasikasik")); */
     "kasur rusak" -> return true
     "erererrerere" -> return true
 */
-/* const palindrome = (string) => {
+const palindrome = (string) => {
     if( typeof string !== 'string' ) return 'error input bukan string';
 
     let strReverse = '';
@@ -167,7 +162,7 @@ console.log(reverseWord("asikasikasik")); */
     return string.length > 1 && strReverse === string
 }
 
-console.log(palindrome("kasur rusak")); */
+console.log(palindrome("kasur rusak"));
 
 
 
@@ -190,7 +185,7 @@ console.log(palindrome("kasur rusak")); */
     5000 -> return "1000, 1000, 1000, 1000, 1000"
 */
 
-/* const exchangeCoin = (number) => {
+const exchangeCoin = (number) => {
     let resultCoins = "";
     const coins = [1000,500,200,100,50,20,10,5,1];
 
@@ -207,7 +202,7 @@ console.log(palindrome("kasur rusak")); */
     return resultCoins;
 }
 
-console.log(exchangeCoin(1752)); */
+console.log(exchangeCoin(1752));
 
 
 
@@ -232,7 +227,7 @@ console.log(exchangeCoin(1752)); */
     ****
 */
 
-/* const asteriksLoop = (number) => {
+const asteriksLoop = (number) => {
     for(let i = 0; i <= number; i++) {
         let simbol = '';
         for(let j = 0; j < i; j++)  simbol += '*';
@@ -240,7 +235,7 @@ console.log(exchangeCoin(1752)); */
     }
 }
 
-asteriksLoop(4); */
+asteriksLoop(4);
 
 
 
@@ -263,7 +258,7 @@ asteriksLoop(4); */
 
 */
 
-/* const pyramidLoop = (number) => {
+const pyramidLoop = (number) => {
     for(let i = 0; i<= number; i++)  {
         let char = '';
 
@@ -275,4 +270,4 @@ asteriksLoop(4); */
     }
 }
 
-pyramidLoop(5); */
+pyramidLoop(5);
